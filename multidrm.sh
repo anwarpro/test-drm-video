@@ -11,4 +11,5 @@
   --aes_signing_key 1ae8ccd0e7985cc0b6203a55855a1034afc252980e970ca90e5202689f947ab9 \
   --aes_signing_iv d58ce954203b7c9a9a9d467f59839249 \
   --protection_systems Widevine,PlayReady \
-  --mpd_output out/multidrm/h264.mpd
+  --mpd_output out/multidrm/h264.mpd \
+  --clear_lead 0

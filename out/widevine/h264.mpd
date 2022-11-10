@@ -12,16 +12,16 @@
       </ContentProtection>
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="2"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <Representation id="0" bandwidth="630387" codecs="avc1.42c01e" mimeType="video/mp4" sar="1:1" width="640" height="360">
-        <BaseURL>h264_360p.mp4</BaseURL>
-        <SegmentBase indexRange="1078-1229" timescale="30000">
-          <Initialization range="0-1077"/>
+      <Representation id="0" bandwidth="1020963" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+        <BaseURL>h264_480p.mp4</BaseURL>
+        <SegmentBase indexRange="1137-1288" timescale="30000">
+          <Initialization range="0-1136"/>
         </SegmentBase>
       </Representation>
-      <Representation id="1" bandwidth="1020628" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
-        <BaseURL>h264_480p.mp4</BaseURL>
-        <SegmentBase indexRange="1133-1284" timescale="30000">
-          <Initialization range="0-1132"/>
+      <Representation id="1" bandwidth="634265" codecs="avc1.42c01e" mimeType="video/mp4" sar="1:1" width="640" height="360">
+        <BaseURL>h264_360p.mp4</BaseURL>
+        <SegmentBase indexRange="1081-1232" timescale="30000">
+          <Initialization range="0-1080"/>
         </SegmentBase>
       </Representation>
     </AdaptationSet>
@@ -51,16 +51,16 @@
       </ContentProtection>
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="0"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <Representation id="3" bandwidth="3187042" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+      <Representation id="3" bandwidth="3182974" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
         <BaseURL>h264_720p.mp4</BaseURL>
-        <SegmentBase indexRange="1113-1264" timescale="30000">
-          <Initialization range="0-1112"/>
+        <SegmentBase indexRange="1117-1268" timescale="30000">
+          <Initialization range="0-1116"/>
         </SegmentBase>
       </Representation>
-      <Representation id="4" bandwidth="6448815" codecs="avc1.64002a" mimeType="video/mp4" sar="1:1" width="1920" height="1080">
+      <Representation id="4" bandwidth="6437428" codecs="avc1.64002a" mimeType="video/mp4" sar="1:1" width="1920" height="1080">
         <BaseURL>h264_1080p.mp4</BaseURL>
-        <SegmentBase indexRange="1116-1267" timescale="30000">
-          <Initialization range="0-1115"/>
+        <SegmentBase indexRange="1124-1275" timescale="30000">
+          <Initialization range="0-1123"/>
         </SegmentBase>
       </Representation>
     </AdaptationSet>
