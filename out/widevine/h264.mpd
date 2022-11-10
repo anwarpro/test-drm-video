@@ -12,16 +12,16 @@
       </ContentProtection>
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="2"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <Representation id="0" bandwidth="1020628" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
-        <BaseURL>h264_480p.mp4</BaseURL>
-        <SegmentBase indexRange="1285-1436" timescale="30000">
-          <Initialization range="0-1284"/>
+      <Representation id="0" bandwidth="630387" codecs="avc1.42c01e" mimeType="video/mp4" sar="1:1" width="640" height="360">
+        <BaseURL>h264_360p.mp4</BaseURL>
+        <SegmentBase indexRange="1078-1229" timescale="30000">
+          <Initialization range="0-1077"/>
         </SegmentBase>
       </Representation>
-      <Representation id="1" bandwidth="630387" codecs="avc1.42c01e" mimeType="video/mp4" sar="1:1" width="640" height="360">
-        <BaseURL>h264_360p.mp4</BaseURL>
-        <SegmentBase indexRange="1211-1362" timescale="30000">
-          <Initialization range="0-1210"/>
+      <Representation id="1" bandwidth="1020628" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+        <BaseURL>h264_480p.mp4</BaseURL>
+        <SegmentBase indexRange="1133-1284" timescale="30000">
+          <Initialization range="0-1132"/>
         </SegmentBase>
       </Representation>
     </AdaptationSet>
@@ -33,11 +33,11 @@
       <ContentProtection schemeIdUri="urn:uuid:1077efec-c0b2-4d02-ace3-3c1e52e2fb4b">
         <cenc:pssh>AAAAdHBzc2gBAAAAEHfv7MCyTQKs4zweUuL7SwAAAAWruicei89VK70uhqQ0qaXZbXbyXLF/Xha46u9rv1gtjmR4YzefQVQQg3fnTG7A47j9zD1hbtxc6pslWFgdnNOP88XgNh5mVLKPgEnHeLI5RgAAAAA=</cenc:pssh>
       </ContentProtection>
-      <Representation id="2" bandwidth="132572" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+      <Representation id="2" bandwidth="132857" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
         <BaseURL>audio.mp4</BaseURL>
-        <SegmentBase indexRange="1141-1292" timescale="44100">
-          <Initialization range="0-1140"/>
+        <SegmentBase indexRange="1052-1203" timescale="44100">
+          <Initialization range="0-1051"/>
         </SegmentBase>
       </Representation>
     </AdaptationSet>
@@ -53,14 +53,14 @@
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <Representation id="3" bandwidth="3187042" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
         <BaseURL>h264_720p.mp4</BaseURL>
-        <SegmentBase indexRange="1245-1396" timescale="30000">
-          <Initialization range="0-1244"/>
+        <SegmentBase indexRange="1113-1264" timescale="30000">
+          <Initialization range="0-1112"/>
         </SegmentBase>
       </Representation>
       <Representation id="4" bandwidth="6448815" codecs="avc1.64002a" mimeType="video/mp4" sar="1:1" width="1920" height="1080">
         <BaseURL>h264_1080p.mp4</BaseURL>
-        <SegmentBase indexRange="1251-1402" timescale="30000">
-          <Initialization range="0-1250"/>
+        <SegmentBase indexRange="1116-1267" timescale="30000">
+          <Initialization range="0-1115"/>
         </SegmentBase>
       </Representation>
     </AdaptationSet>
