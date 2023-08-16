@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.6.1-634af65-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT59.09236526489258S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="video" maxWidth="1920" maxHeight="1080" frameRate="30000/1001" subsegmentAlignment="true" par="16:9">
+      <ContentProtection value="cbcs" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="ac41e1d5-1de4-4f01-b1df-1fdcb0de3d9e"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAhHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAGQSEKxB4dUd5E8Bsd8f3LDePZ4aJGI0YmNhOGQ5LTIzZmYtNDg4ZC1iOTI2LWJkNTEwMzA1OTU4OCIkYWM0MWUxZDUtMWRlNC00ZjAxLWIxZGYtMWZkY2IwZGUzZDllSPPGiZsG</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection value="MSPR 2.0" schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAB3nBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAb6+AQAAAQABALQBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMwAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAUwA+ADwASwBJAEQAIABBAEwARwBJAEQAPQAiAEEARQBTAEMAQgBDACIAIABWAEEATABVAEUAPQAiADEAZQBGAEIAcgBPAFEAZABBAFUAKwB4ADMAeAAvAGMAcwBOADQAOQBuAGcAPQA9ACIAPgA8AC8ASwBJAEQAPgA8AC8ASwBJAEQAUwA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
+        <mspr:pro>vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgAxAGUARgBCAHIATwBRAGQAQQBVACsAeAAzAHgALwBjAHMATgA0ADkAbgBnAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
+      </ContentProtection>
+      <Representation id="0" bandwidth="1019045" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+        <BaseURL>h264_480p.mp4</BaseURL>
+        <SegmentBase indexRange="1593-1744" timescale="30000">
+          <Initialization range="0-1592"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="1" bandwidth="632346" codecs="avc1.42c01e" mimeType="video/mp4" sar="1:1" width="640" height="360">
+        <BaseURL>h264_360p.mp4</BaseURL>
+        <SegmentBase indexRange="1537-1688" timescale="30000">
+          <Initialization range="0-1536"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="3181056" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+        <BaseURL>h264_720p.mp4</BaseURL>
+        <SegmentBase indexRange="1573-1724" timescale="30000">
+          <Initialization range="0-1572"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="6435510" codecs="avc1.64002a" mimeType="video/mp4" sar="1:1" width="1920" height="1080">
+        <BaseURL>h264_1080p.mp4</BaseURL>
+        <SegmentBase indexRange="1580-1731" timescale="30000">
+          <Initialization range="0-1579"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="audio" lang="en" subsegmentAlignment="true">
+      <ContentProtection value="cbcs" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="ac41e1d5-1de4-4f01-b1df-1fdcb0de3d9e"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAhHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAGQSEKxB4dUd5E8Bsd8f3LDePZ4aJGI0YmNhOGQ5LTIzZmYtNDg4ZC1iOTI2LWJkNTEwMzA1OTU4OCIkYWM0MWUxZDUtMWRlNC00ZjAxLWIxZGYtMWZkY2IwZGUzZDllSPPGiZsG</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection value="MSPR 2.0" schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAB3nBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAb6+AQAAAQABALQBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMwAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAUwA+ADwASwBJAEQAIABBAEwARwBJAEQAPQAiAEEARQBTAEMAQgBDACIAIABWAEEATABVAEUAPQAiADEAZQBGAEIAcgBPAFEAZABBAFUAKwB4ADMAeAAvAGMAcwBOADQAOQBuAGcAPQA9ACIAPgA8AC8ASwBJAEQAPgA8AC8ASwBJAEQAUwA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
+        <mspr:pro>vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgAxAGUARgBCAHIATwBRAGQAQQBVACsAeAAzAHgALwBjAHMATgA0ADkAbgBnAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
+      </ContentProtection>
+      <Representation id="3" bandwidth="130051" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio.mp4</BaseURL>
+        <SegmentBase indexRange="1508-1659" timescale="44100">
+          <Initialization range="0-1507"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
